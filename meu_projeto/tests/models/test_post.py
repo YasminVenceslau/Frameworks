@@ -1,5 +1,5 @@
 import pytest
-from blog.factories import PostFactory
+from portifolio.factories import PostFactory
 
 # Cria uma fixture que gera um post já publicado
 @pytest.fixture

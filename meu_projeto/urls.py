@@ -19,5 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('portifolio.urls')),  # conecta o app portifolio
+    path('', include('portifolio.urls')),  # conecta as URLs do app portifolio
 ]
+
