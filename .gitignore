@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches e logs
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Diretórios do sistema
+.DS_Store
+Thumbs.db
+
+# Ambiente virtual
+env/
+venv/
+ENV/
+VENV/
+
+# Configurações locais
+*.sqlite3
+*.db
+*.env
+.local_settings.py
+
+# Pastas de migrações já aplicadas (opcional)
+**/migrations/*.pyc
+**/migrations/*.py[cod]
+**/migrations/__pycache__/
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de testes/cobertura
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Arquivos de build
+build/
+dist/
+*.egg-info/
